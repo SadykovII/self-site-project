@@ -8,6 +8,8 @@ title: ''
 # Website URL
 baseURL: 'https://sadykovii.github.io/self-site-project/'
 
+theme: hugo-blox-builder
+
 ############################
 ## LANGUAGE
 ############################
