@@ -8,8 +8,6 @@ title: ''
 # Website URL
 baseURL: 'https://sadykovii.github.io/self-site-project/'
 
-theme: hugo-blox-builder
-
 ############################
 ## LANGUAGE
 ############################
@@ -45,7 +43,7 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
