@@ -5,9 +5,15 @@
 ############################
 
 imports:
-  - path: hugo-blox-builder/modules/integrations/netlify
-  - path: hugo-blox-builder/modules/blox
-  - path: hugo-blox-builder/modules/slides
+
+  - path: github.com/HugoBlox/kit/modules/integrations/netlify
+  - path: github.com/HugoBlox/kit/modules/blox
+  - path: github.com/HugoBlox/kit/modules/slides
+
+
+#  - path: hugo-blox-builder/modules/integrations/netlify
+#  - path: hugo-blox-builder/modules/blox
+#  - path: hugo-blox-builder/modules/slides
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
